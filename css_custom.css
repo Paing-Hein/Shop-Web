@@ -5,7 +5,12 @@
 body{
 	font-family: 'San Francisco', Helvetica, Arial, san-serif;
 	overflow-x: hidden;
-	max-width: 100%;
+	/*max-width: 100%;*/
+	/*box-sizing: border-box;*/
+}
+div.row{
+	margin-left: 2vw;
+	margin-right: 2vw;
 }
 nav{
 	font-size: 25px;
@@ -17,7 +22,6 @@ div.Para{
 	color: darkgoldenrod;
 	/*font-family: "Sacramento";*/
 	text-shadow: 4px 4px 4px #aaa;
-	margin: 0;
 }
 div.Para p{
 	animation: 20s linear infinite slide-right;
@@ -27,11 +31,35 @@ div.Para p{
 	from { margin-left: 100%; width:300% }
   	to {margin-left: -100%; width:300%}
 }
+
 div.col-6{
+	padding: 1%;
 	height: 200px;
+	border: 0.5px solid red;
+	
 }
 div.col-md-3{
+	padding: 1%;
 	height: 300px;
+	border: 0.5px solid whitesmoke;
+
+}
+div.item{
+	border: 2px solid lightgray;
+	height: 70%;
+	max-width: 100%;
+	padding: 0;
+	text-align: center;
+	margin: 0px;
+}
+div.des{
+	border: 2px solid lightgray;
+	height: 30%;
+	max-width: 100%;
+	padding: 0;
+	text-align: center;
+	color: darkgoldenrod;
+	font-weight: bold;
 }
 .img-fluid{
 	max-width: 100%;
