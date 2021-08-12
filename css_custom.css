@@ -11,16 +11,18 @@ nav{
 	color: white;
 }
 div.Para{
-	text-align: center;
-	color: darkgray;
-}
-.Bg-Para{
-	font-size: 40px;
-}
-.Md-Para{
-	font-size: 30px;
-}
-.Sm-Para{
 	font-size: 2vw;
 	color: darkgoldenrod;
+	/*font-family: "Sacramento";*/
+	text-overflow: hidden;
+	text-shadow: 4px 4px 4px #aaa;
+	margin: 0;
+}
+div.Para p{
+	animation: 20s linear infinite slide-right;
+	animation-delay: 1s;
+}
+@keyframes slide-right{ 
+	from { margin-left: 100%; width:300% }
+  	to {margin-left: -50%; width:300%}
 }
