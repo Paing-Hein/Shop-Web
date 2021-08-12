@@ -12,7 +12,8 @@ nav{
 }
 div.Para{
 	text-align: center;
-	background-color: #58AAD7;
+	color: darkgray;
+	/*background-color: #58AAD7;*/
 }
 .Bg-Para{
 	font-size: 40px;
