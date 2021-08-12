@@ -13,13 +13,9 @@ nav{
 div.Para{
 	text-align: center;
 	color: darkgray;
-	/*background-color: #58AAD7;*/
 }
 .Bg-Para{
 	font-size: 40px;
-	/*font-family: cursive;*/
-	/*animation: slidein;*/
-	/*animation: mymove 5s infinite;*/
 }
 .Md-Para{
 	font-size: 30px;
