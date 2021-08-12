@@ -4,6 +4,7 @@
 }
 body{
 	font-family: 'San Francisco', Helvetica, Arial, san-serif;
+	overflow-x: hidden;
 }
 nav{
 	font-size: 25px;
@@ -14,7 +15,6 @@ div.Para{
 	font-size: 2vw;
 	color: darkgoldenrod;
 	/*font-family: "Sacramento";*/
-	text-overflow: hidden;
 	text-shadow: 4px 4px 4px #aaa;
 	margin: 0;
 }
