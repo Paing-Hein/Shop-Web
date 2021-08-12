@@ -2,8 +2,27 @@
 	width: 100px;
 	height: 100px
 }
+body{
+	font-family: 'San Francisco', Helvetica, Arial, san-serif;
+}
 nav{
 	font-size: 25px;
 	background-color: maroon;
 	color: white;
+}
+div.Para{
+	text-align: center;
+	background-color: #58AAD7;
+}
+.Bg-Para{
+	font-size: 40px;
+	/*font-family: cursive;*/
+	/*animation: slidein;*/
+	/*animation: mymove 5s infinite;*/
+}
+.Md-Para{
+	font-size: 30px;
+}
+.Sm-Para{
+	font-size: 20px;
 }
