@@ -4,7 +4,7 @@
 }
 body{
 	font-family: 'San Francisco', Helvetica, Arial, san-serif;
-	overflow-x: hidden;
+	overflow: hidden;
 	/*max-width: 100%;*/
 	/*box-sizing: border-box;*/
 }
@@ -12,6 +12,7 @@ div.row{
 	margin-left: 2vw;
 	margin-right: 2vw;
 }
+
 nav{
 	font-size: 25px;
 	background-color: maroon;
@@ -34,34 +35,40 @@ div.Para p{
 
 div.col-6{
 	padding: 1%;
-	height: 200px;
+	height: 60vw;
+	/*height: 100%;*/
 	border: 0.5px solid red;
-	
+	text-align: center;
 }
 div.col-md-3{
 	padding: 1%;
-	height: 300px;
+	height: 30vw;
+	/*height: 100%;*/
 	border: 0.5px solid whitesmoke;
-
+	text-align: center;
 }
 div.item{
-	border: 2px solid lightgray;
+	border: 2px solid red;
 	height: 70%;
-	max-width: 100%;
+	/*max-width: 100%;*/
 	padding: 0;
-	text-align: center;
-	margin: 0px;
+	
 }
 div.des{
 	border: 2px solid lightgray;
 	height: 30%;
-	max-width: 100%;
+	/*max-width: 100%;*/
 	padding: 0;
-	text-align: center;
 	color: darkgoldenrod;
+	font-size: 1.5vw;
 	font-weight: bold;
+	overflow: auto;
 }
-.img-fluid{
-	max-width: 100%;
-	max-height: 100%;
+
+div.item img{
+	border: 2px solid green;
+
+    max-width: 100%;
+    max-height: 100%;
+    /*object-fit: contain;*/
 }
